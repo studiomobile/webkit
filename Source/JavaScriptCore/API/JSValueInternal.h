@@ -27,7 +27,7 @@
 #define JSValueInternal_h
 
 #import <JavaScriptCore/JavaScriptCore.h>
-#import <JavaScriptCore/JSValue.h>
+#import <API/JSValue.h>
 
 #if JSC_OBJC_API_ENABLED
 

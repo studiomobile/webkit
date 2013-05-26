@@ -32,5 +32,8 @@
 #include <JavaScriptCore/JSStringRef.h>
 #include <JavaScriptCore/JSObjectRef.h>
 #include <JavaScriptCore/JSValueRef.h>
+#include <JavaScriptCore/FastJSContextRef.h>
+#include <JavaScriptCore/FastJSObjectRef.h>
+#include <JavaScriptCore/FastJSValueRef.h>
 
 #endif /* JavaScript_h */

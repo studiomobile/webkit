@@ -22,7 +22,7 @@
 
 #ifndef JSCJSValue_h
 #define JSCJSValue_h
-
+#include "config.h"
 #include <math.h>
 #include <stddef.h> // for size_t
 #include <stdint.h>

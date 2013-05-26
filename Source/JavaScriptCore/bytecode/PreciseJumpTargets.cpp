@@ -25,6 +25,7 @@
 
 #include "config.h"
 #include "PreciseJumpTargets.h"
+#include "JSCellInlines.h"
 
 namespace JSC {
 

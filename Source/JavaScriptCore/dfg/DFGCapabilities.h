@@ -32,6 +32,7 @@
 #include "Executable.h"
 #include "Options.h"
 #include "Interpreter.h"
+#include "JSCellInlines.h"
 #include <wtf/Platform.h>
 
 namespace JSC { namespace DFG {
@@ -255,6 +256,7 @@ inline bool canInlineOpcode(OpcodeID opcodeID, CodeBlock* codeBlock, Instruction
     default:
         return canCompileOpcode(opcodeID, codeBlock, pc) == CanCompile;
     }
+    return NULL;
 }
 
 CapabilityLevel canCompileOpcodes(CodeBlock*);
